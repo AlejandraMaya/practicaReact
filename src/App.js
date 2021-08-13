@@ -74,7 +74,7 @@ const App = () => {
 					cambiarEstado={cambiarUsuario}
 					tipo="text"
 					label="Usuario"
-					placeholder="john123"
+					placeholder="aleja123"
 					name="usuario"
 					leyendaError="El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo."
 					expresionRegular={expresiones.usuario}
@@ -84,7 +84,7 @@ const App = () => {
 					cambiarEstado={cambiarNombre}
 					tipo="text"
 					label="Nombre"
-					placeholder="John Doe"
+					placeholder="Alejandra "
 					name="usuario"
 					leyendaError="El nombre solo puede contener letras y espacios."
 					expresionRegular={expresiones.nombre}
@@ -112,7 +112,7 @@ const App = () => {
 					cambiarEstado={cambiarCorreo}
 					tipo="email"
 					label="Correo Electrónico"
-					placeholder="john@correo.com"
+					placeholder="aleja@correo.com"
 					name="correo"
 					leyendaError="El correo solo puede contener letras, numeros, puntos, guiones y guion bajo."
 					expresionRegular={expresiones.correo}
@@ -122,7 +122,7 @@ const App = () => {
 					cambiarEstado={cambiarTelefono}
 					tipo="text"
 					label="Teléfono"
-					placeholder="4491234567"
+					placeholder="3233234071"
 					name="telefono"
 					leyendaError="El telefono solo puede contener numeros y el maximo son 14 dígitos."
 					expresionRegular={expresiones.telefono}
